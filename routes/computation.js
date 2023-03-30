@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
 
     }
     let a=Math.fround(x);
-    let b=Math.random(x);
+    let b=Math.random();
     let c=Math.round(x);
     
   res.render('computation', { x:x,fround:a, random:b, round:c});
